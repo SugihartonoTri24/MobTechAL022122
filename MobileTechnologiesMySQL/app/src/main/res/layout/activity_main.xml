@@ -27,6 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="barang"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:layout_column="0"
@@ -52,7 +53,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Barang" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -60,6 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="laporan"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:layout_column="1"
@@ -93,6 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="pelanggan"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:layout_column="0"
@@ -126,6 +129,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="penjualan"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:layout_column="1"
