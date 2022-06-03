@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileTechnologiesMySQL">
         <activity
+            android:name=".Laporan"
+            android:exported="true" />
+        <activity
+            android:name=".Penjualan"
+            android:exported="true" />
+        <activity
+            android:name=".Barang"
+            android:exported="true" />
+        <activity
+            android:name=".Pelanggan"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
